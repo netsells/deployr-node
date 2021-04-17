@@ -23,5 +23,8 @@
     },
     "devDependencies": {
         "@netsells/eslint-config": "^5.0.0"
-    }
+    },
+    "files": [
+        "lib/"
+    ]
 }

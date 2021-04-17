@@ -1,0 +1,27 @@
+{
+    "name": "@netsells/deployr-node",
+    "version": "0.1.0",
+    "main": "./lib/index.js",
+    "license": "MIT",
+    "bin": {
+        "deploy": "./lib/index.js"
+    },
+    "repository": {
+        "url": "https://github.com/netsells/deployr-node"
+    },
+    "author": {
+        "name": "Sam Turrell",
+        "url": "https://samturrell.co.uk",
+        "email": "sam.turrell@netsells.co.uk"
+    },
+    "dependencies": {
+        "@caporal/core": "^2.0.2",
+        "fs-extra": "^9.1.0",
+        "get-port": "^5.1.1",
+        "inquirer": "^8.0.0",
+        "lodash.template": "^4.5.0"
+    },
+    "devDependencies": {
+        "@netsells/eslint-config": "^5.0.0"
+    }
+}
